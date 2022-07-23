@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: rgb(250, 255, 255);
+}
+
+h1,h3,h4{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.tag{
+    color: red;
+    font-size: x-large;
+}
+
+.navbar .container{
+    background-color: black;
+    color: aliceblue;
+    
+
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 18pz;
+    font-weight: bold;
+    
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.navbar ul{
+    display:flex;
+}
+
+.navbar ul li{
+     margin-left: 20px;
+}
+
+.header{
+    min-height: 400px;
+    display: flex;
+
+}
+
+.header .container{
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.header h1,h5{
+    color: red;
+    text-decoration-line: underline;
+}
+
+.box{
+    
+    
+    background-color: grey;
+    color: white;
+    margin: 10px;
+    width: 85px;
+    border-bottom: 10px ;
+    justify-content: space-between;  
+    flex: 1;
+    border-radius: 5px;
+    
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .right{
+    margin-top: 22px;
+    
+ }
+ 
+.lang h4{
+    color: red;
+    font-weight: normal;
+}
+
+.date{
+    margin-right: 5px;
+}
+.hobbies{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+i{
+    color: white;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+}
